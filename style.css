@@ -1,0 +1,41 @@
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+
+table {
+    border-collapse: collapse;
+    /* width: 150px;  */
+    margin: auto; /* Zentriert die Tabelle auf der Seite */
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Border für die inneren Zellen */
+td:not(:last-child) {
+    border-right: 5px solid #fff;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 5px solid #fff;
+}
